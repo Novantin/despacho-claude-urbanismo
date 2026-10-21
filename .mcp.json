@@ -1,0 +1,12 @@
+{
+  "mcpServers": {
+    "archicad-mcp": {
+      "type": "stdio",
+      "command": "${HOME}/archicad-mcp/.venv/bin/archicad-mcp",
+      "args": [],
+      "env": {
+        "ARCHICAD_MCP_MODE": "readonly"
+      }
+    }
+  }
+}

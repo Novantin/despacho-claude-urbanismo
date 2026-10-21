@@ -1,0 +1,29 @@
+# Datos del despacho: nunca salen de este ordenador
+CLAUDE.local.md
+encargos/*
+!encargos/README.md
+normativa/municipal/*
+!normativa/municipal/README.md
+estilo/GUIA-*.md
+recursos/*
+!recursos/README.md
+
+# Entrega del taller: va en pendrive, nunca por GitHub
+entrega/
+
+# Versiones nuevas de una ley pendientes de comparar
+*.nuevo
+
+# Pruebas de /instalar
+prueba-*.docx
+prueba-*.xlsx
+prueba-*.pptx
+
+# Ajustes locales de cada ordenador
+.claude/settings.local.json
+.venv/
+
+# Ofimática y sistema
+~$*
+*.tmp
+.DS_Store
