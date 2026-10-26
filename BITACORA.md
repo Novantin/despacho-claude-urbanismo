@@ -5,6 +5,18 @@ traerlo todo: `/actualizar` en Claude Code.
 
 ---
 
+## 26 de octubre de 2026 — lo que salió en el taller
+
+- **Una carpeta por encargo** en `encargos/`, creada antes de trabajar. Claude
+  ya no busca documentación por todo el ordenador: gasta mucho y se desvía.
+- **Dictado por audio**: Claude interpreta tus mensajes dictados y pregunta solo
+  lo que quede dudoso (cifras, referencias, nombres).
+- **Informes mixtos técnico-jurídicos**: cada parte con su guía de estilo.
+- **Archicad**: lee cualquier proyecto que abras, no solo el primero. Tras
+  conectar el conector, sesión nueva.
+- Trabajas en el portátil con monitor: el kit funciona igual en la pestaña de
+  código de la app de Claude, eligiendo la carpeta `despacho-claude`.
+
 ## 26 de octubre de 2026 — versión inicial
 
 El despacho que montamos en el taller, ya en forma de carpeta:

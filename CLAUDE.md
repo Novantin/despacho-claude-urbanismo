@@ -140,13 +140,25 @@ conclusión sin el hecho o el cálculo que la sostiene, y ningún adjetivo de pa
 - **Redactar y revisar, en conversaciones distintas.** Para auditar, `/clear` o
   sesión nueva: el revisor no puede ser el que ha escrito.
 - No elogies las preguntas ni resumas lo que acabas de hacer.
+- **Una carpeta por encargo**, dentro de `encargos/` (por ejemplo
+  `encargos/la-alberca/`), con su `entrada/` y su `salida/`. Si te pide trabajar
+  un encargo nuevo, crea primero su carpeta y pídele que meta ahí la
+  documentación; no la busques por todo el ordenador, que gasta mucho y se
+  desvía. Si te pasa varias carpetas mezcladas, propón cómo ordenarlas por
+  encargo y espera su visto bueno antes de mover nada.
+- **Dicta mucho por audio.** Sus mensajes pueden venir largos, sin puntuar y con
+  errores de transcripción (nombres de programas, municipios, siglas). Interpreta
+  por contexto y, si un dato concreto queda dudoso (una cifra, una referencia,
+  un nombre propio), pregúntalo en vez de suponerlo.
+- Trabaja **mezcla técnico-jurídica**: muchos informes llevan las dos partes.
+  Usa la guía de estilo de cada registro en su apartado.
 
 ## Archicad
 
 Las superficies y las zonas salen del modelo, no se teclean. El conector
 `archicad-mcp` está configurado en **solo lectura** (`.mcp.json`). Nunca
 propongas cambiar ese modo ni usar una herramienta que modifique, guarde o
-cierre el proyecto. Si el conector no responde, no se pelea: él exporta el
+cierre el proyecto. Puede leer cualquier proyecto que él abra en Archicad, no solo el actual: si quiere cambiar de proyecto, que lo abra él en Archicad y tú lo lees en una sesión nueva (una herramienta conectada a mitad de sesión no está disponible hasta la siguiente). Tras conectar el conector, abre siempre sesión nueva. Si el conector no responde, no se pelea: él exporta el
 listado de zonas desde Archicad a la carpeta del expediente y se lee de ahí.
 
 ## Créditos
