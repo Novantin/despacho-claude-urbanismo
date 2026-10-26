@@ -152,13 +152,20 @@ conclusión sin el hecho o el cálculo que la sostiene, y ningún adjetivo de pa
   un nombre propio), pregúntalo en vez de suponerlo.
 - Trabaja **mezcla técnico-jurídica**: muchos informes llevan las dos partes.
   Usa la guía de estilo de cada registro en su apartado.
+- **Su vocabulario manda.** Cuando te diga que una palabra, giro o expresión no
+  es suya («esto no lo digo yo»), añádela a `estilo/VOCABULARIO.md` (créalo si no
+  existe) con lo que usa él en su lugar, y no la vuelvas a usar en ningún
+  documento. Si hay transcripciones de reuniones suyas en el encargo, toma de
+  ahí también cómo habla con el cliente. Léelo antes de redactar.
+- **Reuniones**: para preparar una o pasar a limpio su transcripción, la skill
+  `reunion`. Las transcripciones van en `encargos/<encargo>/reuniones/`.
 
 ## Archicad
 
 Las superficies y las zonas salen del modelo, no se teclean. El conector
 `archicad-mcp` está configurado en **solo lectura** (`.mcp.json`). Nunca
 propongas cambiar ese modo ni usar una herramienta que modifique, guarde o
-cierre el proyecto. Puede leer cualquier proyecto que él abra en Archicad, no solo el actual: si quiere cambiar de proyecto, que lo abra él en Archicad y tú lo lees en una sesión nueva (una herramienta conectada a mitad de sesión no está disponible hasta la siguiente). Tras conectar el conector, abre siempre sesión nueva. Si el conector no responde, no se pelea: él exporta el
+cierre el proyecto. Puede leer cualquier proyecto que él abra en Archicad, no solo el actual: si quiere cambiar de proyecto, que lo abra él en Archicad y tú lo lees en una sesión nueva (una herramienta conectada a mitad de sesión no está disponible hasta la siguiente). Tras conectar el conector, abre siempre sesión nueva. Si en la carpeta del encargo hay un `.ifc` exportado del modelo, úsalo también: es el formato común de BIM y se lee sin Archicad abierto. Si el conector no responde, no se pelea: él exporta el
 listado de zonas desde Archicad a la carpeta del expediente y se lee de ahí.
 
 ## Créditos

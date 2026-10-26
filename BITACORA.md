@@ -5,6 +5,18 @@ traerlo todo: `/actualizar` en Claude Code.
 
 ---
 
+## 26 de octubre de 2026 — después del taller
+
+- **Reuniones** (skill `reunion`): antes, las preguntas que faltan para poder
+  redactar; después, la transcripción convertida en hechos, argumentos para el
+  escrito y pendientes, en `encargos/<encargo>/reuniones/`. Lo dicho en una
+  reunión no es fuente: se marca `[VERIFICAR]` hasta que lo sostenga un
+  documento.
+- **Tu vocabulario**: cuando digas que algo no lo dirías tú, Claude lo apunta en
+  `estilo/VOCABULARIO.md` y no lo vuelve a usar.
+- **IFC**: si en la carpeta del encargo hay un `.ifc` del modelo, Claude lo usa
+  también.
+
 ## 26 de octubre de 2026 — lo que salió en el taller
 
 - **Una carpeta por encargo** en `encargos/`, creada antes de trabajar. Claude
